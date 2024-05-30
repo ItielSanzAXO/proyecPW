@@ -13,34 +13,27 @@ interface FAQProps {
 
 const FAQList: FAQProps[] = [
   {
-    question: "Is this template free?",
-    answer: "Yes. It is a free ChadcnUI template.",
+    question: "¿Cuál fue tu experiencia con los metaQuets?",
+    answer: "Una experiencia increíble, me sentí realmente en los lugares que escogía",
     value: "item-1",
   },
   {
-    question: "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
+    question: "¿Qué te pareció la visita guiada con nuestros amigos el xolo y la serpiente emplumada?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam? Consectetur sapiente iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+      "Maravilloso, me encantó que metieran algo emblemático de la cultura, me gustó muchísimo el diseño de la serpiente, incluso sentía que podía abrazarla",
     value: "item-2",
   },
   {
     question:
-      "Lorem ipsum dolor sit amet  Consectetur natus dolores minus quibusdam?",
+      "¿Qué lugar incluirias en un futuro?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore qui nostrum reiciendis veritatis necessitatibus maxime quis ipsa vitae cumque quo?",
+      "El santuario de las mariposas quizá, ya viendo y sintiendo la experiencia, creo que sería un lugar increíble poder verlo con los lentes",
     value: "item-3",
   },
   {
-    question: "Lorem ipsum dolor sit amet, consectetur adipisicing elit?",
-    answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    question: "¿Te gustaría ver más proyectos como estos?",
+    answer: "Definitivamente, es para todas las edades, es educativo y puedes viajar de una forma nueva y que te hace sentir como si estuvieras ahí, me encantaría saber hasta donde se puede llegar este proyecto en un futuro",
     value: "item-4",
-  },
-  {
-    question:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur natus?",
-    answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam? Consectetur sapiente iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
-    value: "item-5",
   },
 ];
 
@@ -51,9 +44,9 @@ export const FAQ = () => {
       className="container py-24 sm:py-32"
     >
       <h2 className="text-3xl md:text-4xl font-bold mb-4">
-        Frequently Asked{" "}
+        Preguntas{" "}
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Questions
+          Frecuentes
         </span>
       </h2>
 
@@ -77,13 +70,13 @@ export const FAQ = () => {
       </Accordion>
 
       <h3 className="font-medium mt-4">
-        Still have questions?{" "}
+        ¿Te gustaria preguntarnos?{" "}
         <a
           rel="noreferrer noopener"
           href="#"
           className="text-primary transition-all border-primary hover:border-b-2"
         >
-          Contact us
+          Contactanos
         </a>
       </h3>
     </section>

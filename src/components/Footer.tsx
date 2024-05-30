@@ -12,20 +12,20 @@ export const Footer = () => {
             href="/"
             className="font-bold text-xl flex"
           >
-            <LogoIcon />
-            ShadcnUI/React
+            
+            MexAR
           </a>
         </div>
 
         <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">Follow US</h3>
+          <h3 className="font-bold text-lg">Siguenos</h3>
           <div>
             <a
               rel="noreferrer noopener"
               href="#"
               className="opacity-60 hover:opacity-100"
             >
-              Github
+              Instagram
             </a>
           </div>
 
@@ -49,16 +49,15 @@ export const Footer = () => {
             </a>
           </div>
         </div>
-
         <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">Platforms</h3>
+          <h3 className="font-bold text-lg">Acerca de</h3>
           <div>
             <a
               rel="noreferrer noopener"
               href="#"
               className="opacity-60 hover:opacity-100"
             >
-              Web
+              Funciones
             </a>
           </div>
 
@@ -68,40 +67,7 @@ export const Footer = () => {
               href="#"
               className="opacity-60 hover:opacity-100"
             >
-              Mobile
-            </a>
-          </div>
-
-          <div>
-            <a
-              rel="noreferrer noopener"
-              href="#"
-              className="opacity-60 hover:opacity-100"
-            >
-              Desktop
-            </a>
-          </div>
-        </div>
-
-        <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">About</h3>
-          <div>
-            <a
-              rel="noreferrer noopener"
-              href="#"
-              className="opacity-60 hover:opacity-100"
-            >
-              Features
-            </a>
-          </div>
-
-          <div>
-            <a
-              rel="noreferrer noopener"
-              href="#"
-              className="opacity-60 hover:opacity-100"
-            >
-              Pricing
+              Juego
             </a>
           </div>
 
@@ -117,7 +83,7 @@ export const Footer = () => {
         </div>
 
         <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">Community</h3>
+          <h3 className="font-bold text-lg">Comunidad</h3>
           <div>
             <a
               rel="noreferrer noopener"
@@ -159,7 +125,7 @@ export const Footer = () => {
             href="https://github.com/leoMirandaa"
             className="text-primary transition-all border-primary hover:border-b-2"
           >
-            Leo Miranda
+            Eric Castillo
           </a>
         </h3>
       </section>

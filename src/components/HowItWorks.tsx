@@ -10,27 +10,27 @@ interface FeatureProps {
 const features: FeatureProps[] = [
   {
     icon: <MedalIcon />,
-    title: "Accessibility",
+    title: "Jugabilidad",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+    "Explora el mundo de MexAR y gana medallas por tus logros."
   },
   {
     icon: <MapIcon />,
-    title: "Community",
+    title: "Comunidad",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Conoce a otros exploradores y comparte tus experiencias con ellos.",
   },
   {
     icon: <PlaneIcon />,
-    title: "Scalability",
+    title: "Escalabilidad",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Poco a poco iremos añadiendo más lugares para que puedas explorar.",
   },
   {
     icon: <GiftIcon />,
-    title: "Gamification",
+    title: "Gamificacion",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Gana premios y descuentos en establecimientos locales por tus logros.",
   },
 ];
 
@@ -41,15 +41,14 @@ export const HowItWorks = () => {
       className="container text-center py-24 sm:py-32"
     >
       <h2 className="text-3xl md:text-4xl font-bold ">
-        How It{" "}
+        Más que{" "}
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Works{" "}
+          jugar{" "}
         </span>
-        Step-by-Step Guide
+        es aprender
       </h2>
       <p className="md:w-3/4 mx-auto mt-4 mb-8 text-xl text-muted-foreground">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
-        dolor pariatur sit!
+        Con MexAR no solo te diviertes, también aprendes sobre los lugares que visitas.
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
